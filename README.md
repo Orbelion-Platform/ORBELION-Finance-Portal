@@ -89,9 +89,65 @@ Authentication is delegated to the hosting platform, which injects stable user I
 
 This case study intentionally excludes credentials, deployment identifiers, production URLs, personal email addresses, private infrastructure configuration, and real financial data. The included environment file contains placeholders only.
 
+## Product Evidence
+
+These screenshots show the verified ORBELION Finance Portal experience using a
+sanitized identity and synthetic financial values. The interface structure and
+implemented workflows are preserved; no production data is shown.
+
+### Financial Overview
+
+![ORBELION Finance Portal financial overview](docs/assets/01-dashboard-overview-synthetic.png)
+
+Monthly financial overview with net worth, liquidity, income, expenses, cash
+flow, debt, payables, receivables, and category KPIs.
+
+### Upcoming Commitments
+
+![ORBELION Finance Portal upcoming commitments](docs/assets/02-dashboard-obligations-synthetic.png)
+
+Dashboard view of recurring payables, debts, due dates, payment actions, and
+status indicators.
+
+### Recent Activity and Reminders
+
+![ORBELION Finance Portal recent activity](docs/assets/03-dashboard-activity-synthetic.png)
+
+Recent financial movements and the configured reminder cadence, presented with
+an example identity and fictional account data.
+
+### Payables Management
+
+![ORBELION Finance Portal payables management](docs/assets/04-payables-synthetic.png)
+
+Paid and pending commitments with progress, recurrence context, and record
+management actions.
+
+### Transaction Ledger
+
+![ORBELION Finance Portal transaction ledger](docs/assets/05-transactions-synthetic.png)
+
+Income and expense ledger with categories, accounts, dates, amounts, and
+controlled edit/delete actions.
+
+### Monthly Reports
+
+![ORBELION Finance Portal monthly reports](docs/assets/06-reports-synthetic.png)
+
+Monthly result, savings rate, debt, payables, and category-level financial
+reporting.
+
+### Email Reminder
+
+![ORBELION Finance Portal email reminder](docs/assets/07-email-alert-synthetic.png)
+
+Synthetic due-date email demonstrating the verified scheduled reminder output.
+
 ## Screenshots
 
-Safe screenshots can be added under [`screenshots/`](screenshots/) after replacing all financial values and identity fields with synthetic data. See the folder instructions for the required review checklist.
+The seven images in **Product Evidence** are the approved public screenshot set
+for this case study. Identity, counterparties, account labels, and financial
+values are synthetic; the original private captures are not tracked.
 
 ## Engineering Decisions
 

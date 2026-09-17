@@ -5,3 +5,12 @@ coverage/
 .env.local
 .DS_Store
 npm-debug.log*
+
+# Private screenshot sources. Only sanitized *-synthetic.png assets are public.
+docs/assets/01. Resumen.png
+docs/assets/01.1 Resumen.png
+docs/assets/01.2 Resumen.png
+docs/assets/02. Por pagar.png
+docs/assets/03. Movimientos.png
+docs/assets/04. Reportes.png
+docs/assets/05. Alerta vía correo electrónico.png
